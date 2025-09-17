@@ -114,7 +114,7 @@ export default function Home() {
                   {isLoading ? (
                     <Loader2 className="animate-spin" />
                   ) : (
-                    <Wand2 />
+                    
                   )}
                   <span className="ml-2">{isLoading ? 'Generating...' : 'Generate'}</span>
                 </Button>
